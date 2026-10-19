@@ -1,0 +1,5 @@
+import {PageIntro,CTA,Eyebrow,SectionHead,ButtonLink} from '@/components/ui';
+import {site} from '@/lib/site';
+import {ArrowUpRight} from 'lucide-react';
+export const metadata={title:'Our Community',description:'A space for people curious about technology, creativity, collaboration and meaningful growth.'};
+export default function Page(){return <><PageIntro label='Our Community' title='Find your people. Build your future.' description='A space for people curious about technology, creativity, collaboration and meaningful growth.'/><section className="section container"><div className="community-feature"><div><Eyebrow>THE COMMUNITY</Eyebrow><h2>Progress is better together.</h2><p>Connect with learners, creators, founders and builders who want to explore ideas, share knowledge and grow through technology.</p><ButtonLink href={site.community} external>Join our WhatsApp community</ButtonLink></div><div className="community-art" aria-hidden="true"><span>CONNECT</span><span>CREATE</span><span>GROW</span></div></div></section><CTA title='Get in touch' description="We'd love to hear from you." href='/contact' label="Contact TechMindsVerse"/></>}
