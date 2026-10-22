@@ -6,9 +6,7 @@ import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { site } from '@/lib/site';
 
-// @ts-expect-error CSS is loaded by Next.js; TypeScript may not resolve side-effect CSS imports.
 import './globals.css';
-
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
 

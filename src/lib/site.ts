@@ -19,12 +19,12 @@ export const site = {
 
   // Add verified links when available.
   calendly: '',
-  formspree: '',
+  formspree: 'https://formspree.io/f/xjyybrar',
   academyForm: '',
   eventForm: '',
 
   socials: {
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/company/techmindsverse',
     x: '',
     instagram: '',
     tiktok: '',
