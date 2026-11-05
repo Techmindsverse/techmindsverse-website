@@ -101,7 +101,7 @@ function TeamGrid({ members }: { members: TeamMember[] }) {
                 src={person.image}
                 alt={person.name}
                 width={480}
-                height={480}
+                height={680}
                 className="team-headshot"
               />
             </div>
